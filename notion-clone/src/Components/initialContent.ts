@@ -1,0 +1,1 @@
+export const initialContent = '<p>Hello world</p>';

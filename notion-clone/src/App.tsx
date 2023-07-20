@@ -1,3 +1,5 @@
+import Editor from "./Components/Editor"
+
 function App() {
   return (
     <div className='min-h-screen p-8 text-zinc-900 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400'>
@@ -10,9 +12,7 @@ function App() {
           </div>
         </aside>
         <main className='p-4'>
-          <div className="max-w-[700px] prose-emerald">
-
-          </div>
+          <Editor />
         </main>
       </div>
     </div>
